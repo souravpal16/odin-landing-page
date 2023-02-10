@@ -4,7 +4,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-/* HEADER CSS*/
+/* HEADER */
 .header{
   background-color: #1f2937;
   display: flex;
@@ -33,3 +33,54 @@ body{
   color: #e5e7eb;
   font-size: 18px;
 }
+
+
+/* IMAGE CONTAINER */
+.hero-container{
+  display: flex;
+  background-color: #1f2937;
+  padding: 0px 200px;
+  height: 65vh;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.hero-container-information{
+  width: 500px;
+}
+
+.big-text{
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.small-text{
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-container button{
+  background-color: #3882f6;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #e5e7eb;
+  border-radius: 10px;
+  border: none;
+}
+
+.image-placeholder{
+  height: 300px;
+  flex: 1;
+  margin-left: auto;
+  background-color: gray;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* RANDOM INFORMATION */
