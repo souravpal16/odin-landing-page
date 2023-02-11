@@ -36,7 +36,7 @@ body{
 }
 
 
-/* IMAGE CONTAINER */
+/* HERO SECTION */
 .hero-container{
   display: flex;
   background-color: #1f2937;
@@ -148,6 +148,8 @@ body{
   font-size: 24px;
 }
 
+/* CALL FOR ACTION */
+
 .call-to-action{
   display: flex;
   justify-content: center;
@@ -183,6 +185,7 @@ body{
   color: #f9faf8;
 }
 
+/* FOOTER */
 .footer{
   height: 100px;
   background-color: #1f2937;
